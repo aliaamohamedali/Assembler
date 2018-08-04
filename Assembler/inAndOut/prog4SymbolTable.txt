@@ -1,0 +1,6 @@
+FIBYT     1e
+FBYT     1b
+INDEV     22
+FIRST     0
+SBYT     24
+TBYT     1c

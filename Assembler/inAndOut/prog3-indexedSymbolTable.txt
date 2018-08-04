@@ -1,0 +1,6 @@
+ZERO     75
+HUND     78
+COPYLO     6
+VALUE     7b
+FIRST     0
+ARR2     f

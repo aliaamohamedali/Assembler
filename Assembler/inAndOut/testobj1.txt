@@ -1,0 +1,20 @@
+1000     copy     START      1000
+1000               LDA     ZERO        0013af
+1003               STA     INDEX        0c1021
+1006     ADDLP     LDX     INDEX        041021
+1009               LDA     ALPHA,X        00902b
+100c               ADD     BETA,X        189157
+100f               STA     GAMMA,X        0c9283
+1012               LDA     INDEX        001021
+1015               ADD     THREE        1813b5
+1018               STA     INDEX        0c1021
+101b               COMP     K300        2813b2
+101e               JLT     ADDLP        381006
+1021     INDEX    RESW     1        61
+1024     BYTE     BYTE     C'abcdefg'        62
+102b     ALPHA    RESW     100        63
+1157     BETA    RESW     100        64
+1283     GAMMA    RESW     100        65
+13af     ZERO     WORD     0        66
+13b2     K300     WORD     300        67
+13b5     THREE     WORD     3        000000

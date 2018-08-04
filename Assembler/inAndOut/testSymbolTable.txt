@@ -1,0 +1,9 @@
+GAMMA     1283
+ZERO     13af
+ADDLP     1006
+BYTE     1024
+ALPHA     102b
+K300     13b2
+INDEX     1021
+BETA     1157
+THREE     13b5

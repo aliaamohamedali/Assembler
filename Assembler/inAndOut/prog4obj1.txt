@@ -1,0 +1,16 @@
+0     CPYBTE     START      0
+0     FIRST     LDCH     FBYT        50001b
+3               STCH     SBYT        540024
+6               LDCH     TBYT        50001c
+9               STCH     FBYT        54001b
+c               TD     INDEV        e00022
+f               RD     INDEV        d80022
+12               STCH     SBYT        540024
+15               LDCH     FIBYT        50001e
+18               WD     INDEV        dc0022
+1b     FBYT     BYTE     C'X'        58
+1c     TBYT     BYTE     X'03'        30
+1e     FIBYT     BYTE     C'NULL'        33
+22     INDEV     BYTE     X'0A'        4e
+24     SBYT    RESB     1        55
+2a               END     FIRST        4c
